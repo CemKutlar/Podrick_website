@@ -57,8 +57,11 @@ ul li ul li a{
     font-family:'Courier New', Courier, monospace;
 }
 .second_in_left {
-    font-size: 18px;
     color: #E5E7EB;
+}
+.lw {
+    font-size: 18px;
+    
     font-weight: lighter;
     font-family:'Courier New', Courier, monospace;
 }
