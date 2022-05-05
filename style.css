@@ -21,6 +21,7 @@ ul {
 }
 
 .header_rigth {
+    margin-top: 16px;
     gap: 24px;
     
 }
@@ -84,6 +85,28 @@ ul li ul li a{
    border-width: 2px;
    border-color: aqua;*/
    margin-right: 10%;
+   
+}
+
+.podrick_video {
+    
+    width: 380px;
+    height: 380px;
+    border-style:solid;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-radius: 35px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.podrick_logo {
+    width: 40px;
+    height: 40px;
+    border-collapse: collapse;
+    border-style:hidden;
+    border-radius: 10px;
+    
 }
 
 .Under_header {
@@ -91,5 +114,47 @@ ul li ul li a{
     
 }
 .left {
-    padding-right: -50px;
+    
+    margin: auto;
 }
+
+.Second_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #F9FAF8;
+    
+    gap: 20px;
+    /*align-items: center;*/
+    
+}
+
+.grid-item {
+    background-color: #F9FAF8;
+    border: 2px hidden #3882f6;
+    border-radius: 10px;
+    /*padding: 45px;*/
+    
+    
+  }
+
+  .grid_img {
+    width: 100%;
+    height: 100%;
+    grid-column-start:1;
+    grid-column-end: 2;
+    overflow:hidden;
+    object-fit: contain;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-style: solid;    
+  }
