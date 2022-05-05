@@ -122,12 +122,20 @@ ul li ul li a{
 }
 
 .Second_container {
-    display: flex;
+    
     align-items: center;
     justify-content: space-between;
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.header_of_second_container {
+    text-align: center;
+    font-size: 36px;
+    font: bolder;
+    color: #1F2937;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .Grid_container {
